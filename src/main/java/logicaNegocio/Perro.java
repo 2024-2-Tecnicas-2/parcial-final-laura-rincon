@@ -13,7 +13,7 @@ public class Perro extends Animal implements Domestico{
 
     @Override
     public String obtenerDieta() {
-        return "Omnivoro";
+        return "Omnívoro";
     }
 
     @Override
