@@ -4,12 +4,12 @@ public class Perro extends Animal implements Domestico{
 
     @Override
     public String emitirSonido() {
-        throw new UnsupportedOperationException("Not supported yet."); // Generated from nbfs://nbhost/SystemFileSystem/Templates/Classes/Code/GeneratedMethodBody
+       return "Ladrido";
     }
 
     @Override
     public String obtenerDieta() {
-        throw new UnsupportedOperationException("Not supported yet."); // Generated from nbfs://nbhost/SystemFileSystem/Templates/Classes/Code/GeneratedMethodBody
+        return "Omnivoro";
     }
-    // TODO: Aquí va tu código
+    
 }
