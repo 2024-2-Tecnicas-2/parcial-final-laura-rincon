@@ -4,8 +4,6 @@ public class Delfin extends Animal{
     
     private TipoHabitat tipoHabitat = TipoHabitat.ACUATICO;
 
-
-
     @Override
     public String emitirSonido() {
         return "Chirrido";
@@ -13,7 +11,7 @@ public class Delfin extends Animal{
 
     @Override
     public String obtenerDieta() {
-        return "Pescadoo";
+        return "Pescado";
     }
 }
 
