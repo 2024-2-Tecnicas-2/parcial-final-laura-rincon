@@ -16,6 +16,7 @@ public class Delfin extends Animal{
 
     public TipoHabitat getTipoHabitat() {
         return tipoHabitat;
+        
     }
     
     
