@@ -2,7 +2,9 @@ package logicaNegocio;
 
 public class Delfin extends Animal{
     
-     TipoHabitat habitat = Delfin.getHabitat;
+    public Delfin() {
+        this.habitat = TipoHabitat.ACUATICO;
+    }
 
     @Override
     public String emitirSonido() {
