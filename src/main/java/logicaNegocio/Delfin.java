@@ -13,7 +13,7 @@ public class Delfin extends Animal{
 
     @Override
     public String obtenerDieta() {
-        return "Pescado";
+        return "Pescadoo";
     }
 }
 
