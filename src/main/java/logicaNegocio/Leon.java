@@ -6,12 +6,12 @@ public class Leon extends Animal {
 
     @Override
     public String emitirSonido() {
-        return " Rugido";
+        return "Rugido";
     }
 
     @Override
     public String obtenerDieta() {
-        return "Carnivoro";
+        return "Carnívoro";
     }
    
 }
